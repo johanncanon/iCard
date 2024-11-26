@@ -1,9 +1,11 @@
 import React from "react";
 
-export function Error404() {
+export function Error404(props) {
+  const { children } = props;
   return (
     <div>
-      <p>error 404</p>
+      <h3>error 404</h3>
+      {children}
     </div>
   );
 }

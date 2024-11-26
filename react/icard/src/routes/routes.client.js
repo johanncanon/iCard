@@ -1,13 +1,11 @@
 import { ClientLayout } from "../layout";
 import { Home } from "../pages/Client";
-import { Error404 } from "../pages";
 
 const routesClient = [
   {
     path: "/",
     layout: ClientLayout,
     component: Home,
-    exact: true,
   },
 ];
 

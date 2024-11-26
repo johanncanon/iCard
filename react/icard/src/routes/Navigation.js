@@ -11,12 +11,11 @@ export function Navigation() {
           <Route
             key={index}
             path={route.path}
-            exact={route.exact}
-            render={(props) => (
+            element={
               <route.layout>
-                <route.component {...props}></route.component>
+                <route.component></route.component>
               </route.layout>
-            )}
+            }
           />
         ))}
       </Routes>
