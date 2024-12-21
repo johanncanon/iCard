@@ -4,3 +4,4 @@ export * from "./SideMenu";
 export * from "./HeaderPage";
 //User Folder
 export * from "./Users";
+export * from "./Category";
